@@ -2,7 +2,7 @@
 Example of a login authenticator using flask and python
 
 ## 🚀 Techs
-Python, Flask
+Python, Flask, SQLAlchemy, SQLite
 
 ## 🛠️ Install dependencies
 
