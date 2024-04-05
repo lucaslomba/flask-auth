@@ -74,6 +74,27 @@ Request body
 }
 ```
 
+### Get user by ID
+
+```http
+  GET /api/user/${id}
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `id`      | `string` | **Required**. |
+
+### Update user by ID
+
+```http
+  PUT /api/user/${id}
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `id`      | `string` | **Required**. |
+
+
 ## Authors
 
 - [@lucaslomba](https://github.com/lucaslomba)
