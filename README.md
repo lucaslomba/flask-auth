@@ -94,6 +94,16 @@ Request body
 | :-------- | :------- | :-------------------------------- |
 | `id`      | `string` | **Required**. |
 
+### Delete user by ID
+
+```http
+  DELETE /api/user/${id}
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `id`      | `string` | **Required**. |
+
 
 ## Authors
 
