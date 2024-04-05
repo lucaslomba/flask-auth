@@ -48,17 +48,31 @@ Request body
 
 ```JSON
 {
-    "title": "string",
-    "description": "string"
+    "username": "string",
+    "password": "string"
 }
 ```
 
 ### Logout
 
 ```http
-  POST api_url/logout
+  GET api_url/logout
 ```
 
+### Create user
+
+```http
+  POST api_url/user
+```
+
+Request body
+
+```JSON
+{
+    "username": "string",
+    "password": "string"
+}
+```
 
 ## Authors
 
