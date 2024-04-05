@@ -1,4 +1,4 @@
-# 💰 Flask auth
+# 🔐 Flask auth
 Example of a login authenticator using flask and python
 
 ## 🚀 Techs
@@ -51,6 +51,12 @@ Request body
     "title": "string",
     "description": "string"
 }
+```
+
+### Logout
+
+```http
+  POST api_url/logout
 ```
 
 
